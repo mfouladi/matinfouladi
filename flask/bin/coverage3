@@ -1,4 +1,4 @@
-#!/Users/matinfouladi/Projects/pythonFouladi/flask/bin/python
+#!/root/matinfouladi/flask/bin/python3
 # EASY-INSTALL-ENTRY-SCRIPT: 'coverage==4.2','console_scripts','coverage3'
 __requires__ = 'coverage==4.2'
 import sys

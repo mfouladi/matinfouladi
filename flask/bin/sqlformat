@@ -1,4 +1,4 @@
-#!/Users/matinfouladi/Projects/pythonFouladi/flask/bin/python
+#!/root/matinfouladi/flask/bin/python3
 # EASY-INSTALL-ENTRY-SCRIPT: 'sqlparse==0.2.1','console_scripts','sqlformat'
 __requires__ = 'sqlparse==0.2.1'
 import sys
