@@ -1,0 +1,91 @@
+body {
+  padding: 0px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+a {
+  color: #00B7FF;
+}
+
+.navbar-toggle.navbar-toggle-brand {
+  border: none;
+  float: left;
+  padding: 15px 15px;
+  margin: 0;
+}
+
+ul.nav.navbar-nav.col-xs-4>li>a {
+	padding-left:0;
+	padding-right:0;
+	color: #777;
+}
+
+ul.nav.navbar-nav.col-xs-4>li {
+	width: 33%;
+}
+nav.navbar.navbar-static-top {
+	margin:0;
+}
+
+.navbar-custom {
+  background-color: #ffffff;
+  border-color: #e7e7e7;
+}
+.navbar-custom .navbar-brand {
+  color: #777;
+}
+.navbar-custom .navbar-brand:hover,
+.navbar-custom .navbar-brand:focus {
+  color: #5e5e5e;
+  background-color: transparent;
+}
+
+.home-section {
+		height : 600px;
+		background-color : #d7d7d7;
+	}
+
+.img-width-responsive {
+	width:100%;
+}
+@media (max-width: 480px) {
+    .home-section-responsive {
+		height : 1560px;
+		background-color : #d7d7d7;
+	}
+}
+@media (min-width: 480px) and (max-width: 890px) {
+    .home-section-responsive {
+		height : 2350px;
+		background-color : #d7d7d7;
+	}
+}
+@media (min-width: 890px) and (max-width: 992px) {
+    .home-section-responsive {
+		height : 2550px;
+		background-color : #d7d7d7;
+	}
+}
+@media (min-width: 992px) {
+    .home-section-responsive {
+		height : 600px;
+		background-color : #d7d7d7;
+	}
+}
+
+#home-section-1 {
+	padding-top : 50px;
+	background-size: 100% 100%;
+	background-image:url('/images/natural-writing-inspiration.jpg');
+	background-repeat: no-repeat;
+	color : #FFFFFF;
+}
+.home-section-1-title {
+	padding-top : 175px;
+}
+#home-section-2 {
+}
+
+.padding-5px {
+	padding : 20px 20px 20px 20px;
+}

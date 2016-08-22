@@ -1,0 +1,60 @@
+<div class="container-fluid">
+	<div class="row home-section"
+		id="home-section-1">
+		<div class="home-section-1-title">
+			<h1 class="text-center text-uppercase">
+				{% for message in welcomeMessage %}
+					<h1 class="text-center text-uppercase">
+						{{ message }}
+					</h1>
+				{% endfor %}
+			</h1>
+		</div>
+	</div>
+	<div class="row home-section-responsive"
+		id="home-section-2">
+		<div class="row">
+			<h1 class="text-center text-uppercase">
+				Life's Little Pleasures
+			</h1>
+		</div>
+		<div class="row">
+			<div class="col-md-4">
+				<div class="row padding-5px">
+					<img class="img-circle img-width-responsive"
+						src="./images/circular-top-shelf-reading.jpg">
+				</div>
+				<div class="row">
+					<h3 class="text-center">Writing</h3>
+					<p class="padding-5px">
+						I've always wanted to write my own fiction novel and have started the task multiple times, but I am still working to get something to completion. I'll publish my thoughts here and hopefully work my way to a complete story.
+					</p>
+				</div>
+			</div>
+			<div class="col-md-4">
+				<div class="row padding-5px">
+					<img class="img-circle img-width-responsive"
+						src="./images/writing-negative-space.jpg">
+				</div>
+				<div class="row">
+					<h3 class="text-center">Programmming</h3>
+					<p class="padding-5px">
+						Finding the overlap between logic and art is what has drawn me to programming. I am able to create and express my thoughts through a medium that is so open ended that the bounds feel limitless and anything seems possible
+					</p>
+				</div>
+			</div>
+			<div class="col-md-4">
+				<div class="row padding-5px">
+					<img class="img-circle img-width-responsive"
+						src="./images/scrambled-information-library.jpg">
+				</div>
+				<div class="row">
+					<h3 class="text-center">Entertainment Debauchery</h3>
+					<p class="padding-5px">
+						Movies, telivision, books, anime, graphic novels, and music are better than any vacation I can think of. Getting pulled into a fantasy world, a fictional pit of mystery, and getting to empathize with a range of characters is what I enjoy most.
+					</p>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>

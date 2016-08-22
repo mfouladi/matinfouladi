@@ -1,0 +1,87 @@
+<nav class="navbar navbar-custom navbar-fixed-top">
+	<div class="container-fluid">
+		<div class="navbar-header">
+			<a class="navbar-brand navbar-toggle navbar-toggle-brand"
+				data-toggle="collapse"
+				aria-expanded="false">
+				Matin Fouladi
+			</a>
+			<button class="navbar-toggle collapsed"
+					type="button"
+					data-toggle="collapse"
+					data-target="#main-navbar-options"
+					aria-expanded="false">
+				<span class="sr-only">
+					Toggle Navigation
+				</span>
+				{% for i in range(3) %}
+					<span class="icon-bar"
+						style="background-color : black">
+					</span>
+				{% endfor %}
+			</button>
+		</div>
+		<div class="collapse navbar-collapse navbar-center row text-center"
+			id="main-navbar-options">
+			<ul class="nav navbar-nav col-xs-4">
+				<li>
+					<a href="#">Tech Blog</a>
+				</li>
+				<li>
+					<a href="#">Hacks</a>
+				</li>
+				<li>
+					<a href="#home-section-2">Profile</a>
+				</li>
+			</ul>
+			<a class="navbar-brand col-xs-4"
+				href="#home-section-1">Matin Fouladi</a>
+			<ul class="nav navbar-nav col-xs-4">
+				<li class="dropdown">
+					<a class="dropdown-toggle"
+						href="#"
+						data-toggle="dropdown">Stories</a>
+					<ul class="dropdown-menu">
+						<li>
+							<a href="#">642 Things to Write About</a>
+						</li>
+					</ul>
+				</li>
+				<li class="dropdown">
+					<a class="dropdown-toggle"
+						href="#"
+						data-toggle="dropdown">Reviews</a>
+					<ul class="dropdown-menu">
+						<li>
+							<a href="./reviews/movies">Movies</a>
+						</li>
+						<li>
+							<a href="./reviews/tv_shows">TV Shows</a>
+						</li>
+						<li>
+							<a href="./reviews/books">Books</a>
+						</li>
+					</ul>
+				</li>
+				<li class="dropdown">
+					<a class="dropdown-toggle"
+						href="#"
+						data-toggle="dropdown">My Lists</a>
+					<ul class="dropdown-menu">
+						<li>
+							<a href="./reviews/movies">Movies</a>
+						</li>
+						<li>
+							<a href="./reviews/tv_shows">TV Shows</a>
+						</li>
+						<li>
+							<a href="./reviews/books">Books</a>
+						</li>
+					</ul>
+				</li>
+			</ul>
+		</div>
+		</div>
+	</div>
+</nav>
+			
