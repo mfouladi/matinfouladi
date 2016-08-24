@@ -48,29 +48,8 @@ nav.navbar.navbar-static-top {
 .img-width-responsive {
 	width:100%;
 }
-@media (max-width: 480px) {
-    .home-section-responsive {
-		height : 1560px;
-		background-color : #d7d7d7;
-	}
-}
-@media (min-width: 480px) and (max-width: 890px) {
-    .home-section-responsive {
-		height : 2350px;
-		background-color : #d7d7d7;
-	}
-}
-@media (min-width: 890px) and (max-width: 992px) {
-    .home-section-responsive {
-		height : 2550px;
-		background-color : #d7d7d7;
-	}
-}
-@media (min-width: 992px) {
-    .home-section-responsive {
-		height : 600px;
-		background-color : #d7d7d7;
-	}
+.home-section-responsive {
+	background-color : #d7d7d7;
 }
 
 #home-section-1 {
